@@ -1,5 +1,6 @@
 ## Urban Nest-Data-Analysis
-Data Analyst Skills Test for RAJ
+Business Analyst Hackathon by @realanalystjobs
+Challenge: Diagnose the E-commerce Revenue Drop
 
 ## Executive Summary
 August-September data shows stable KPIs (Revenue: 89.7M, Orders: 20,570, AOV: 4,361.62) but with a dip-recovery pattern. SAVE30 drives most discounts – needs ROI validation.
