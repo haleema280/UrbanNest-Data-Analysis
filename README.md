@@ -24,5 +24,5 @@ August-September data shows stable KPIs (Revenue: 89.7M, Orders: 20,570, AOV: 4,
    Ans: 5038765.11
 
 ## Files
-Dashboard: UrbanNest_Dasboard.xlsx
+Dashboard: UrbanNest_Dashboard.xlsx
 Video: https://drive.google.com/file/d/1buIjS1qIZcxMl86bbWsIe1vP4ODXnmeJ/view?usp=sharing
