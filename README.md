@@ -1,28 +1,47 @@
-## Urban Nest-Data-Analysis
-Business Analyst Hackathon by @realanalystjobs
-Challenge: Diagnose the E-commerce Revenue Drop
+Executive Summary
 
-## Executive Summary
-August-September data shows stable KPIs (Revenue: 89.7M, Orders: 20,570, AOV: 4,361.62) but with a dip-recovery pattern. SAVE30 drives most discounts – needs ROI validation.
+This dashboard analyzes Urban Nest's e-commerce performance to identify the factors behind the revenue decline between August and September.
+The business generated a Total Revenue of 89.72M from 20,570 orders, with an Average Order Value (AOV) of 4,361.62. Monthly revenue showed a noticeable decline before recovering, indicating fluctuations in customer purchasing behavior. The SAVE30 discount campaign contributed the highest discount amount, totaling 5,038,765.11. While discounts may have supported sales, their impact on profitability requires further evaluation.
+The analysis suggests that the revenue decline was primarily driven by a reduction in order volume rather than a decrease in average order value.
 
-## Recommendation
-**Should Urban Nest cut the budget? No**
-1. Measure SAVE30 profitability and conversion impact
-2. Investigate late-period revenue decline (seasonality, stock, marketing?)
-3. Add profit margin, conversion rate, repeat purchase rate to dashboard
-4. Analyze by product, channel, customer segment
+Key Insights
 
- ## Answers to 5 Questions
-1. **Q1: By what percentage did net revenue fall in September versus August?**  
-   Ans: 20.27%
-2. **Q2: By what percentage did order volume change over the same period?**  
-   Ans: -3%
-3. **Q3: Which metric explains most of the revenue fall?**  
-   Ans: Order volume
-4. **Q4: Which discount code is responsible?**  
-   Ans: SAVE30
-5. **Q5: How much total discount was given away in September?**  
-   Ans: 5038765.11
+1-Total Revenue: 89.72M
+2-Total Orders: 20,570
+3-Average Order Value (AOV): 4,361.62
+4-Total Discount Given: 5,038,765.11
+5-Top Discount Code: SAVE30
+6-Revenue declined by 20.27% from August to September.
+7-Order volume decreased by 3%, making it the primary contributor to the revenue decline.
 
-## Files
-Dashboard: [UrbanNest_Dashboard.xlsx](https://1drv.ms/x/c/1EA778FC925FC0A4/IQDg-qQe2eydR6-nW9UH7kJFASicrQD-l2arX2fNBeWH-JE?e=cWQmhc)
+Business Questions & Answers
+
+1. By what percentage did revenue decrease from August to September?
+
+Answer: Revenue decreased by 20.27%.
+
+2. How much did order volume decrease?
+Answer: Order volume decreased by 3%.
+
+3. What was the primary driver of the revenue decline?
+
+Answer: The decline was mainly caused by lower order volume rather than a decrease in Average Order Value.
+
+4. Which discount code generated the highest discount amount?
+
+Answer: SAVE30 generated the highest total discount.
+
+5. What was the total discount amount?
+
+Answer: 5,038,765.11
+
+Recommendations
+
+1-valuate the ROI and profitability of the SAVE30 discount campaign before making budget decisions.
+2-Investigate the reasons behind the decline in order volume during September.
+3-Track additional KPIs such as Profit Margin, Conversion Rate, and Repeat Purchase Rate for deeper business insights.
+4-Analyze sales performance by product category, customer segment, and marketing channel to identify growth opportunities.
+5-Continue monitoring monthly revenue trends to detect early signs of performance decline.
+Executive Summary
+
+Dashboard link: https://drive.google.com/file/d/1pP45aqacVALdjbg2yCP6nvVYcXd8wPH-/view?usp=sharing
