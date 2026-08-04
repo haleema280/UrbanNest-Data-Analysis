@@ -37,7 +37,7 @@ Answer: 5,038,765.11
 
 Recommendations
 
-1-valuate the ROI and profitability of the SAVE30 discount campaign before making budget decisions.
+1-Evaluate the ROI and profitability of the SAVE30 discount campaign before making budget decisions.
 2-Investigate the reasons behind the decline in order volume during September.
 3-Track additional KPIs such as Profit Margin, Conversion Rate, and Repeat Purchase Rate for deeper business insights.
 4-Analyze sales performance by product category, customer segment, and marketing channel to identify growth opportunities.
