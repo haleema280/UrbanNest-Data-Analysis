@@ -44,4 +44,4 @@ Recommendations
 5-Continue monitoring monthly revenue trends to detect early signs of performance decline.
 Executive Summary
 
-Dashboard link: https://drive.google.com/file/d/1pP45aqacVALdjbg2yCP6nvVYcXd8wPH-/view?usp=sharing
+ 
