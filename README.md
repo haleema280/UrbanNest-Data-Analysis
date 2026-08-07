@@ -17,23 +17,47 @@ Key Insights
 Business Questions & Answers
 
 1. By what percentage did revenue decrease from August to September?
-
 Answer: Revenue decreased by 20.27%.
+SQL QUERY:
+SELECT 
+((SUM(CASE WHEN MONTH(order_date)=9 THEN net_revenue END) - 
+  SUM(CASE WHEN MONTH(order_date)=8 THEN net_revenue END)) / 
+  NULLIF(SUM(CASE WHEN MONTH(order_date)=8 THEN net_revenue END),0)) * 100 
+AS Revenue_Decrease_Percent
+FROM `RAW-DATA`;
 
 2. How much did order volume decrease?
 Answer: Order volume decreased by 3%.
+SQL QUERY:
+SELECT
+((COUNT(CASE WHEN MONTH(order_date)=9 THEN order_id END) - 
+  COUNT(CASE WHEN MONTH(order_date)=8 THEN order_id END)) / 
+  NULLIF(COUNT(CASE WHEN MONTH(order_date)=8 THEN order_id END),0)) * 100 
+AS Order_Decrease_Percent
+FROM `RAW-DATA`;
 
 3. What was the primary driver of the revenue decline?
-
 Answer: The decline was mainly caused by lower order volume rather than a decrease in Average Order Value.
+SQL QUERY:
+-- Check AOV
+SELECT 
+SUM(net_revenue)/COUNT(order_id) as AOV
+FROM `RAW-DATA`
+WHERE MONTH(order_date) IN (8,9);
 
 4. Which discount code generated the highest discount amount?
-
 Answer: SAVE30 generated the highest total discount.
+SQL QUERY:
+SELECT discount_code, SUM(discount_amount) as Total_Discount
+FROM `RAW-DATA`
+GROUP BY discount_code
+ORDER BY Total_Discount DESC
+LIMIT 1;
 
 5. What was the total discount amount?
-
 Answer: 5,038,765.11
+SQL QUERY:
+SELECT SUM(discount_amount) as Total_Discount_Budget FROM `RAW-DATA`;
 
 Recommendations
 
